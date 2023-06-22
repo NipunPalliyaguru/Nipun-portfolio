@@ -18,7 +18,7 @@ const About = () => {
       initial='hidden'
       whileInView={'show'}
       viewport={{once: false, amount: 0.3}} 
-      className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
+      className='rounded-lg flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
 
       </motion.div>
 
@@ -32,7 +32,7 @@ const About = () => {
         <h2 className='h2 text-fuchsia-300'>About me.</h2>
         <h3 className='h3 mb-4'>I'm an undergraduate Student at SLIIT </h3>
         <p className='mb-6 text-[20px]'>
-        Hello ! I'm Shanuka Udara and I'm currently an undergraduate student at the SLIIT Faculty of Computing. 
+        Hello ! I'm Nipun  and I'm currently an undergraduate student at the SLIIT Faculty of Computing. 
         I am a hardworking learner who is passionate about providing exceptional service of the highest quality. 
         I always strive to complete projects to the best of my abilities and I am determined to achieve excellence. 
         I take my responsibilities seriously and I am motivated to give my best in both professional duties and daily activities.
