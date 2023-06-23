@@ -9,24 +9,24 @@ import { Link } from 'react-scroll';
 const services = [
   {
     name: 'Frontend Developing',
-    description: 'Proficient in HTML, CSS, and JavaScript. Experience with front-end frameworks such as React and Angular. Skilled in creating responsive and user-friendly interfaces.',
+    description: 'Highly skilled in HTML, CSS, and JavaScript. Familiarity with front-end frameworks like React and Angular. Proficient in crafting interfaces that are both responsive and intuitive for users.',
   },
-  
+
   {
     name: 'Backend Developing',
-    description: 'Strong knowledge of server-side programming languages like Node.js and Python. Familiarity with databases such as MySQL and MongoDB. Experienced in building robust and scalable back-end systems.',
+    description: 'Extensive understanding of server-side programming languages like Node.js and Python. Proficiency with databases such as MySQL and MongoDB. Skilled in constructing resilient and adaptable back-end systems.',
   },
-  
+
   {
     name: 'UX / UI Designing',
-    description: 'Proficient in user-centered design principles and practices. Skilled in creating intuitive and visually appealing user interfaces. Experience in conducting user research, creating wireframes. Strong knowledge of interaction design and usability testing.',
+    description: 'Proficient in user-centered design principles and methodologies. Skilled in creating intuitive, visually captivating user interfaces. Experience in user research, wireframe development. Strong knowledge of interaction design and usability testing.',
   },
-  
+
 ];
 
 const Services = () => {
   const handleSeeWorkClick = () => {
-    window.open('https://github.com/Shanuka-A', '_blank'); 
+    window.open('https://github.com/Shanuka-A', '_blank');
   };
 
   return (
@@ -43,12 +43,24 @@ const Services = () => {
             className="flex-1  lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0"
           >
             <h2 className="h2 text-fuchsia-400 mb-6">What I do</h2>
-            <p className='mb-6 text-[20px]'>
-            I'm currently engaged in designing the UI/UX of a website or web application. They are using HTML, CSS, and JavaScript as the core technologies for building the frontend, which is the part of a website that users interact with. Additionally, they mentioned using Tailwind CSS, which is a popular utility-first CSS framework that provides pre-built CSS classes to streamline the styling and layout process. By combining these technologies, the person is able to create visually appealing and interactive frontend designs for their web projects.
+            <p className='mb-6 text-[20px] text-justify'>
+              Presently, I am involved in the creation of the user interface and user experience for a website or web application.
+              The foundational technologies employed in developing the frontend, which constitutes the portion of the website with which users directly engage,
+              encompass HTML, CSS, and JavaScript. Moreover, they have expressed the intention to utilize Tailwind CSS,
+              a well-liked CSS framework centered around utility-first principles, offering a range of pre-designed CSS
+              classes to expedite the styling and arrangement procedures. Through the amalgamation of these technologies,
+              the individual is proficient in crafting captivating and dynamic frontend designs for their web endeavors.
             </p>
-            <button className="btn btn-sm" onClick={handleSeeWorkClick}>
-              See My Work
-            </button>
+            <a
+                href="https://github.com/NipunPalliyaguru" target='_blank'
+                className=" font-general-medium flex text-justify  w-36 sm:w-48 mt-0 s:mt-8 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-600 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500  hover:text-white duration-500"
+                aria-label="Download Resume"
+              >
+                <div className="mr-2 sm:mr-4 h-5 w-5 sn:w-6 sm:h-6 duration-100"></div>
+                <span className="text-sm sm:text-lg font-general-medium duration-100">
+               See My Works
+                </span>
+              </a>
           </motion.div>
 
           {/* services */}
@@ -61,15 +73,15 @@ const Services = () => {
           >
             <div>
               {services.map((service, index) => {
-                const { name,description } = service;
+                const { name, description } = service;
                 return (
-                  <div className="border-b border-white/20 h-[180px] mb-[28px] flex" key={index}>
+                  <div className=" text-justify border-b ml-20 border-white/20 h-[180px] mb-[40px] flex" key={index}>
                     <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
-                        
+                      <h5 className="text-[20px] tracking-wider font-primary font-semibold mb-6 ">
+
                         {name}
-                        
-                      </h4>
+
+                      </h5>
                       <p>{description}</p>
                     </div>
                   </div>

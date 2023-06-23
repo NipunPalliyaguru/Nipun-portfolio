@@ -31,11 +31,8 @@ const About = () => {
       className='flex-1'>
         <h2 className='h2 text-fuchsia-300'>About me.</h2>
         <h3 className='h3 mb-4'>I'm an undergraduate Student at SLIIT </h3>
-        <p className='mb-6 text-[20px]'>
-        Hello ! I'm Nipun  and I'm currently an undergraduate student at the SLIIT Faculty of Computing. 
-        I am a hardworking learner who is passionate about providing exceptional service of the highest quality. 
-        I always strive to complete projects to the best of my abilities and I am determined to achieve excellence. 
-        I take my responsibilities seriously and I am motivated to give my best in both professional duties and daily activities.
+        <p className='mb-6 text-[20px] text-justify'>
+        Greetings! My name is Nipun, and presently, I am pursuing my bachelor's degree at the SLIIT Faculty of Computing. As a diligent scholar, I possess a fervent desire to deliver unparalleled excellence in service. I consistently endeavor to accomplish assignments to the utmost of my capabilities, driven by my unwavering commitment to attaining greatness. I approach my obligations with utmost sincerity and remain motivated to give my utmost in both my professional obligations and everyday endeavors.
         
         </p>
         {/*stats*/}

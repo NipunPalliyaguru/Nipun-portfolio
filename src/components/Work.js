@@ -86,7 +86,7 @@ const Work = () => {
       viewport={{ once: false, amount: 0.3 }}
       className='test-4xl font-bold'>
       <h2 className="h2 text-fuchsia-400 mb-6">Experience </h2>
-      <h3 className='h3 mb-4'>These are the Technology I've worked with </h3>
+      <h3 className='h3 mb-4'>These are the technological tools I have experience using. </h3>
       
       </motion.div>
       <motion.div 

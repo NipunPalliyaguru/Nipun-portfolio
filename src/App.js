@@ -6,7 +6,6 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
-import Contact from './components/Contact';
 import Project from './components/Project';
 import Apps from './components/Apps';
 
@@ -19,7 +18,6 @@ const App = () => {
       <About />
       <Services />
       <Work />
-      {/* <Contact /> */}
       <Project />
       <Apps />
 

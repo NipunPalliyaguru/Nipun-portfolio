@@ -53,7 +53,7 @@ const Project = () => {
                         viewport={{ once: false, amount: 0.3 }}
                         className='test-4xl font-bold'>
                         <h2 className="h2 text-fuchsia-400 mb-6">Projects </h2>
-                        <h3 className='h3 mb-4'>Projects I'va made </h3>
+                        <h3 className='h3 mb-4'>Projects I have completed, including collaborations with teams</h3>
 
                     </motion.div>
                     <motion.div

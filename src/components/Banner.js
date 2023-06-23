@@ -13,7 +13,7 @@ const Banner = () => {
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center font-secondary lg:text-left">
-            <motion.h1    variants={fadeIn('up', 0.3)}
+            <motion.h1 variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
@@ -32,9 +32,9 @@ const Banner = () => {
               <TypeAnimation
                 sequence={[
                   'Developer', 2000,
-                  'Student',2000,
-                  'DevOps',2000,
-                  'Cyber Ops',2000,
+                  'Student', 2000,
+                  'DevOps', 2000,
+                  'Cyber Ops', 2000,
                 ]}
                 speed={50}
                 className="text-gradient"
@@ -59,9 +59,24 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <a className='text-[30px] font-semibold text-gradient1' href={pdf} download>
+              {/* <a className='text-[30px] font-semibold text-gradient1' href={pdf} download>
                 Download CV
+              </a> */}
+              <a
+                download="Nipun Ayodtya CV.pdf"  href="/files/Nipun Ayodtya CV.pdf" target='_blank'
+                className=" font-general-medium flex text-justify  w-36 sm:w-48 mt-0 s:mt-8 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-600 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500  hover:text-white duration-500"
+                aria-label="Download Resume"
+              >
+                <div className="mr-2 sm:mr-4 h-5 w-5 sn:w-6 sm:h-6 duration-100"></div>
+                <span className="text-sm sm:text-lg font-general-medium duration-100">
+                  Download CV
+                </span>
               </a>
+
+
+
+
+
               {/* social */}
               <motion.div
                 variants={fadeIn('up', 0.7)}
