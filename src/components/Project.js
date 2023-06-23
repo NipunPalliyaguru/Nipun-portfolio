@@ -1,6 +1,7 @@
 import FMS from '../assets/FMS.png';
 import REC from '../assets/RecMS.png';
 import PET from '../assets/PETSM.png';
+import mad from '../assets/mad.png';
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -38,6 +39,14 @@ const Project = () => {
             link: 'https://github.com/NipunPalliyaguru/OOP-Project-2K22',
             logo: FaGithub
         },
+        {
+            id: 4,
+            src: mad,
+            title: 'BODIMA App',
+            style: 'shadow-blue-500',
+            link: 'https://github.com/NipunPalliyaguru/OOP-Project-2K22',
+            logo: FaGithub
+        },
 
     ]
     return (
@@ -67,19 +76,24 @@ const Project = () => {
                             techs.map(({ id, src, title, style, link, logo }) => (
                                 <div key={id} className={`bg-opacity-100 bg-sky-900 shadow-sm hover:scale-125 pt-2 duration-500  rounded-lg ${style}`}>
                                     <center>
-                                    <img src={src} alt="" className='w-full mx-auto' />
-                                    <p className='mt-4'>{title}</p>
-                                    <p className='object-center py-4 w-11  shadow-sm  'title='Get The Code'>
-                                        <a href={link}><FaGithub></FaGithub></a>
-                                        
-                                    </p>
+                                    <a href={link} target='_blank'>
+                                        <img src={src} alt="" className='w-full mx-auto' />
+                                        <p className='mt-4'>{title}</p>
+                                        <p className='object-center py-4 w-11  shadow-sm  ' title='Get The Code'>
+                                            <FaGithub></FaGithub>
+
+                                        </p>
+                                        </a>
                                     </center>
 
                                 </div>
                             ))
+
+
                         }
 
                     </motion.div>
+
 
                 </div>
             </div>

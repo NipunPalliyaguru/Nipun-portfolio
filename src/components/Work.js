@@ -12,7 +12,7 @@ import react from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import node from '../assets/node.png';
 import github from '../assets/github.png';
-import python from '../assets/python.png';
+import azure from '../assets/azure.png';
 
 
 const Work = () => {
@@ -68,9 +68,9 @@ const Work = () => {
     },
     {
       id:9,
-      src:python,
-      title:'Python',
-      style:'shadow-yellow-500'
+      src:azure,
+      title:'Azure',
+      style:'shadow-sky-400'
     },
   ]
   return(

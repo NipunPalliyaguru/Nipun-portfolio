@@ -7,25 +7,15 @@ const Header = () => {
     <header className='py-8'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-          {/* logo */}
-          <a href='#'>
-            <img src={Logo} alt='' style={{ width: '85px', height: 'auto' }} />
-          </a>
-          <Link to='contact'
-            activeClass='active'
-            smooth={true}
-            spy={true}
-          >
 
+          <a href='#'> <img src={Logo} alt='' style={{ width: '85px', height: 'auto' }} /> </a>
+          <Link to='contact' activeClass='active' smooth={true} spy={true} >
 
             <a onClick={() => window.location.href = 'mailto:nipuninfo2@gmail.com.com?subject=Lov%20ur%20skill'}
 
               className="text-gray-100 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-dark-900 bg-ternary-dark shadow-sm p-4 duration-300" title='Mail me'
             >
-              <i className="text-xl sm:text-2xl md:text-3xl">
-                <FiMail></FiMail>
-
-              </i>
+              <i className="text-xl sm:text-2xl md:text-3xl"> <FiMail></FiMail> </i>
             </a>
 
           </Link>
