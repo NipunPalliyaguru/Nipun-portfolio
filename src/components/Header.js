@@ -11,7 +11,7 @@ const Header = () => {
           <a href='#'> <img src={Logo} alt='' style={{ width: '85px', height: 'auto' }} /> </a>
           <Link to='contact' activeClass='active' smooth={true} spy={true} >
 
-            <a onClick={() => window.location.href = 'mailto:nipuninfo2@gmail.com.com?subject=Lov%20ur%20skill'}
+            <a onClick={() => window.location.href = 'mailto:nipuninfo2@gmail.com.com?subject=Lov%20ur%20skills%20set'}
 
               className="text-gray-100 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-dark-900 bg-ternary-dark shadow-sm p-4 duration-300" title='Mail me'
             >
