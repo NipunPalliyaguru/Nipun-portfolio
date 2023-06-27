@@ -35,7 +35,6 @@ const Banner = () => {
                 sequence={[
                   'Developer', 2000,
                   'Student', 2000,
-                  'DevOps', 2000,
                   'Cyber Ops', 2000,
                 ]}
                 speed={50}
@@ -61,9 +60,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-             
+
               <a
-                download="NipunCV.pdf"  href={pdf} 
+                download="NipunCV.pdf" href={pdf}
                 className=" font-general-medium flex text-justify  w-36 sm:w-48 mt-0 s:mt-8 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-600 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500  hover:text-white duration-500"
                 aria-label="Download Resume"
               >
@@ -77,7 +76,7 @@ const Banner = () => {
 
 
 
-         
+
               <motion.div
                 variants={fadeIn('up', 0.7)}
                 initial="hidden"
