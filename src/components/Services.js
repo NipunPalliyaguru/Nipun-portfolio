@@ -75,9 +75,9 @@ const Services = () => {
               {services.map((service, index) => {
                 const { name, description } = service;
                 return (
-                  <div className=" text-justify border-b ml-20 border-white/20 h-[180px] mb-[40px] flex" key={index}>
+                  <div className="  border-b ml-4 border-white/20 h-[180px] mb-[60px] flex" key={index}>
                     <div className="max-w-[476px]">
-                      <h5 className="text-[20px] tracking-wider font-primary font-semibold mb-6 ">
+                      <h5 className="text-[20px] tracking-wider font-primary font-semibold  ">
 
                         {name}
 

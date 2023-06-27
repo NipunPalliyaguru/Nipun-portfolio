@@ -15,7 +15,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.nipun.me/',
+		url: 'https://nipun-ayodya.netlify.app',
 	},
 	{
 		id: 2,
