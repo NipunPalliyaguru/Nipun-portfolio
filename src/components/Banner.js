@@ -61,9 +61,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              {/* <a className='text-[30px] font-semibold text-gradient1' href={pdf} download>
-                Download CV
-              </a> */}
+             
               <a
                 download="NipunCV.pdf"  href={pdf} 
                 className=" font-general-medium flex text-justify  w-36 sm:w-48 mt-0 s:mt-8 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-600 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500  hover:text-white duration-500"
@@ -79,7 +77,7 @@ const Banner = () => {
 
 
 
-              {/* social */}
+         
               <motion.div
                 variants={fadeIn('up', 0.7)}
                 initial="hidden"
@@ -93,7 +91,7 @@ const Banner = () => {
                 <a href="inkedin.com/in/nipun-palliyaguru-98a470216/">
                   <FaLinkedin />
                 </a>
-                <a href="https://medium.com/@shanukaudara6/broadcast-receivers-20cc30fad2ca">
+                <a href="">
                   <FaLink />
                 </a>
               </motion.div>

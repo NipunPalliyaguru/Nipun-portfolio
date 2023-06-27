@@ -9,7 +9,7 @@ import { Link } from 'react-scroll';
 const services = [
   {
     name: 'Frontend Developing',
-    description: 'Highly skilled in HTML, CSS, and JavaScript. Familiarity with front-end frameworks like React and Angular. Proficient in crafting interfaces that are both responsive and intuitive for users.',
+    description: 'Highly skilled in HTML, CSS, and JavaScript. Familiarity with front-end frameworks like React. Proficient in crafting interfaces that are both responsive and intuitive for users.',
   },
 
   {

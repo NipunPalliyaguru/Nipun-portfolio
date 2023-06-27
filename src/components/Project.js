@@ -20,7 +20,7 @@ const Project = () => {
             src: PET,
             title: 'Pet Shelter Management System',
             style: 'shadow-blue-500',
-            link: 'https://github.com/NipunPalliyaguru',
+            link: 'https://github.com/NipunPalliyaguru/Happy-Tails-Pet-Shelter-Management-System-ITP',
             logo: FaGithub
         },
         {
@@ -28,7 +28,7 @@ const Project = () => {
             src: REC,
             title: 'Recipe Management System  ',
             style: 'shadow-blue-500',
-            link: 'https://github.com/NipunPalliyaguru/IWT-MY-2K22-USER-',
+            link: 'https://github.com/NipunPalliyaguru/Recipe-Management-System',
             logo: FaGithub
         },
         {
@@ -36,7 +36,7 @@ const Project = () => {
             src: FMS,
             title: 'Fuel Management System',
             style: 'shadow-blue-500',
-            link: 'https://github.com/NipunPalliyaguru/OOP-Project-2K22',
+            link: 'https://github.com/NipunPalliyaguru/Online-Fuel-Management-System',
             logo: FaGithub
         },
         {
@@ -44,7 +44,7 @@ const Project = () => {
             src: mad,
             title: 'BODIMA App',
             style: 'shadow-blue-500',
-            link: 'https://github.com/NipunPalliyaguru/OOP-Project-2K22',
+            link: 'https://github.com/NipunPalliyaguru/BODIMA-MAD-Mobile-App-Y2S2',
             logo: FaGithub
         },
 
